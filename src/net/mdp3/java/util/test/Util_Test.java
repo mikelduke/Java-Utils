@@ -1,4 +1,6 @@
-package net.mdp3.java.util;
+package net.mdp3.java.util.test;
+
+import net.mdp3.java.util.console.ConsoleReader;
 
 /**
  * util
@@ -6,7 +8,7 @@ package net.mdp3.java.util;
  *
  * Utils Test class
  */
-public class Util {
+public class Util_Test {
 
 	private ConsoleReader cr;
 	
@@ -17,10 +19,10 @@ public class Util {
 	 */
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		Util u = new Util();
+		Util_Test u = new Util_Test();
 	}
 
-	public Util() {
+	public Util_Test() {
 		cr = new ConsoleReader("Utils", this);
 	}
 	
